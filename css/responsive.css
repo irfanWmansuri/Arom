@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and ( max-width: 1280px ) {
+}
+@media only screen and ( max-width: 1024px ) {
+    .bannercntnt h1 span{font-size: 36px;}
+}
+@media only screen and ( max-width: 980px ) {
+    .cntntsec h4 a{font-size: 18px;}
+}
+@media only screen and ( max-width: 800px ) {
+    .linkbox, .gallerybox { width: 45%; }
+    .missionbox, .addressec { width: 50%; }
+    .footersec .container{gap: 38px;}
+    .gallerybox ul li { width: 20%; }
+    .missionbox h4{font-size: 18px;}
+    .bannersec .container{gap: 45px;}
+    .headersec .mobilemenu{display: block;}
+    .headerright{display: none;}
+    .productsec ul.productlist li.productbox{width: 48%;}
+    .subscribesec .subscribe_text h3{font-size: 30px;margin-bottom: 5px;}
+    .productsec,.salesec,.newssec{padding: 30px 0;}
+    .subscribesec .subscribe_text{width: 80%;margin: 0 auto;padding: 45px 10px;}
+    .productsec h2 span, .newssec h2 span{padding-bottom: 0;}
+    .productsec h2, .newssec h2{margin-bottom: 20px;font-size: 30px;}
+
+}
+@media only screen and ( max-width: 768px ) {
+    .bannercntnt h1 span { font-size: 28px;}
+    .bannercntnt h1{font-size: 22px;}
+    .btn a{padding: 10px 25px;}
+    .footersec .container{gap: 20px;}
+    h5.heading{margin-bottom: 10px;}
+    .newssec ul li{width: 47%;}
+    .readmorebtn { margin-top: 8px; }
+    .cntntsec h4{margin-bottom: 8px;}
+    .salebtn { margin-top: 20px; }
+    .salecntnt h4{margin-bottom: 0;}
+    .salecntnt h4 span{margin-top: 0;}
+    .subscribe_form form button{padding: 10px 25px;}
+    .subscribe_form form input{height: 38px;}
+    .slidercntnt a.slideOverlay{width: 100%;padding: 15px;}
+}
+@media only screen and ( max-width: 736px ) {
+}
+@media only screen and ( max-width: 667px ) {
+}
+@media only screen and ( max-width: 640px ) {
+    .salecntnt h4{font-size: 30px;}
+    .salecntnt h4 span{font-size: 22px;}
+}
+@media only screen and ( max-width: 600px ) {
+    .bannercntnt h1 span { font-size: 24px; }
+    .bannercntnt h1 span.browse { margin-top: 8px; }
+    .bannercntnt h1{margin-bottom: 8px;}
+    .bannercntnt h1 { font-size: 18px; }
+    .bannercntnt p{margin-bottom: 20px;line-height: 1.4;}
+    .subscribesec{margin-bottom: 0;padding-bottom: 30px;}
+    .footersec{padding: 30px 0;}
+    .gallerybox ul li { width: 22%;}
+    .copysec{padding: 20px 0;}
+}
+@media only screen and ( max-width: 568px ) {
+}
+@media only screen and ( max-width: 480px ) {
+    .container{width: 90%;}
+    .bannerimg{display: none;}
+    .bannersec::before{width: 4%;}
+    .bannercntnt { width: 98%;margin-left: 2%;padding-bottom: 60px; }
+    .slidersec ul li{width: 100%;margin-left: 0;margin-top: 2%;}
+    .slidersec ul{margin-left: 0;margin-top: -2%;}
+    li.productbox { width: 100%; margin-left: 0;margin-top: 2%;}
+    li.productbox {margin-left: 0;margin-top: 6%;}
+    .productsec ul.productlist{margin-left: 0;}
+    .productsec ul.productlist li.productbox{width: 100%;margin-left: 0;margin-top: 6%;}
+    .imgsec ul{height: 20%;}
+    .salesec{background-size: unset;}
+    .salecntnt,.newssec ul li{width: 100%;}
+    .imgbox img{width: 100%;}
+    .newssec ul li{margin-left: 0;margin-top: 6%;}
+    .subscribesec .subscribe_text{width: 100%;box-sizing: border-box;padding: 30px 10px;}
+    .subscribesec .subscribe_text p{font-size: 14px;}
+    .missionbox, .addressec,.linkbox, .gallerybox {width: 100%;}
+    .missionbox h4{margin-bottom: 8px;}
+    .footersec .container{gap: 40px;}
+    .gallerybox ul li {width: 17%;}
+}
+@media only screen and ( max-width: 414px ) {
+    .subscribe_form form button{margin-left: 10px;font-size: 13px;padding: 10px 15px;}
+    
+}
+@media only screen and ( max-width: 384px ) {
+    .subscribesec .subscribe_text h3{font-size: 22px;}
+    .subscribe_form form button{margin-left: 0;margin-top: 10px;}
+    .subscribe_form {margin-top: 20px;}
+    .newssec p{font-size: 14px;}
+}
+@media only screen and ( max-width: 375px ) {
+}
+@media only screen and ( max-width: 360px ) {
+}
+@media only screen and ( max-width: 320px ) {
+    .gallerybox ul li{width: 24%;}
+
+}
